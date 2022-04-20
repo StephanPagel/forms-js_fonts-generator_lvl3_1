@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-JS_Fonts-Generator Level 3_1</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <h1>Fonts Generator</h1>
+    <label for="">Font-Size:</label>
+    <input type="range" name="" id="font_size" min="10" max="100" step="5" onchange="changeFontsSize()">
+    <select name="" id="font_family" onchange="changeFontsSize()">
+        <option value="'Bodoni Moda', serif">Bodoni Moda</option>
+        <option value="'Open Sans', sans-serif">Open Sans</option>
+        <option value="'Roboto', sans-serif">Roboto</option>
+        <option value="'Yusei Magic', sans-serif">Yusei Magic</option>
+    </select>
+    <input type="text" name="" id="input_text" placeholder="Bitte hier Text eingeben" onchange="changeFontsSize()">
+    <h1 id="output_text"></h1>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
